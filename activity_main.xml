@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.vicky.technocrats.MainActivity">
+
+    <Button
+        android:text="A.VIGNESH SOMASHEKAR"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/A.VIGNESH"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_blue_bright"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:text="J.P MADHUMIETHAA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/J.P.MADHUMIETHAA"
+        android:background="@android:color/holo_green_light"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:text="S.RAHUL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/S.RAHUL"
+        android:background="@android:color/holo_red_dark"
+        android:textColor="?android:attr/colorFocusedHighlight"/>
+
+    <Button
+        android:text="P.NALLAMAI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/P.NALLAMAI"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/background_light"/>
+</LinearLayout>
